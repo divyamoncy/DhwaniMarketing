@@ -525,7 +525,8 @@ a:focus {
 }
 
 .WelcomeText img{
-	width:60%;
+	padding-top: 100px;
+padding-bottom: 40px;
 	display: block;
 	margin:auto;
 
@@ -541,6 +542,7 @@ a:focus {
   background:-moz-linear-gradient(#f89106, #e61f57);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+   padding-bottom: 100px;
 }
 .abouttext{
 
