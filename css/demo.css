@@ -8,7 +8,7 @@
 
 body {
 	
-	font-family: 'Overpass Mono', monospace;
+	font-family: '33535gillsansmt';
 	color: #edecf2;
 	background: white;
 	-webkit-font-smoothing: antialiased;
@@ -700,15 +700,15 @@ background:-webkit-linear-gradient(#f89106, #e61f57);
   	padding-right: 0px;
   }
   .broch{
-  	padding-left: 0px;
-  	padding-right: 0px;
+  	padding-left: 20px;
+  	padding-right: 20px;
   }
   .broch h1{
   	font-size: 30px;
   }
   .aboutcet{
-  	padding-left: 0px;
-  	padding-right: 0px;
+  	padding-left: 20px;
+  	padding-right: 20px;
   	
   }
   .aboutcet h1{
