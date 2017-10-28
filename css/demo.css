@@ -538,6 +538,7 @@ a:focus {
   text-align: center;
   font-family: '33535gillsansmt',sans-serif;
   background:-webkit-linear-gradient(#f89106, #e61f57);
+  background:-moz-linear-gradient(#f89106, #e61f57);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -551,6 +552,7 @@ a:focus {
 	text-align:justify;
     text-justify:inter-word;
    background: -webkit-linear-gradient(#f89106, #e61f57);
+   background:-moz-linear-gradient(#f89106, #e61f57);
    -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
    padding:30px;
@@ -562,6 +564,7 @@ a:focus {
 	
 	
 	background: -webkit-linear-gradient(#f89106, #e61f57);
+	background:-moz-linear-gradient(#f89106, #e61f57);
 
 
 }
@@ -607,12 +610,14 @@ a:focus {
   text-align: center;
   font-family: '33535gillsansmt',sans-serif;
   background:-webkit-linear-gradient(#f89106, #e61f57);
+  background:-moz-linear-gradient(#f89106, #e61f57);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .broch p{
 	
 background:-webkit-linear-gradient(#f89106, #e61f57);
+background:-moz-linear-gradient(#f89106, #e61f57);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -643,12 +648,14 @@ background:-webkit-linear-gradient(#f89106, #e61f57);
   text-align: center;
   font-family: '33535gillsansmt',sans-serif;
   background:-webkit-linear-gradient(#f89106, #e61f57);
+  background:-moz-linear-gradient(#f89106, #e61f57);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .aboutcet p{
 	
 background:-webkit-linear-gradient(#f89106, #e61f57);
+background:-moz-linear-gradient(#f89106, #e61f57);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
