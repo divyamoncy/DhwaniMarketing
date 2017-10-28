@@ -525,7 +525,7 @@ a:focus {
 }
 
 .WelcomeText img{
-	width:60%;
+	width:300px;
 	display: block;
 	margin:auto;
 
@@ -655,7 +655,7 @@ background:-moz-linear-gradient(#f89106, #e61f57);
 .aboutcet p{
 	
 background:-webkit-linear-gradient(#f89106, #e61f57);
-background:-moz-linear-gradient(#f89106, #e61f57);
+background:-moz-linear-gradient(#f89106, #e61f57);	
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
