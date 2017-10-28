@@ -527,6 +527,8 @@ background:-moz-linear-gradient(#f89106, #e61f57); /* Black*/
 }
 
 .WelcomeText img{
+	height:30%;
+	width:30%;
 	padding-top: 100px;
 padding-bottom: 40px;
 	display: block;
@@ -724,5 +726,10 @@ background:-moz-linear-gradient(#f89106, #e61f57);
   }
   .aboutcet h1{
   	font-size: 30px;
+  }
+  .WelcomeText img{
+  	padding-top: 150px;
+  	height:50%;
+  	width:50%;
   }
 }
