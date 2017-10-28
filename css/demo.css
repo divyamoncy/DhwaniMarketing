@@ -176,19 +176,19 @@ a:focus {
 .grid__item--c1,
 .grid__item--c1:hover,
 .grid__item--c1:focus {
-	color: #52649e;
+	color: #e61f57;
 }
 
 .grid__item--c2,
 .grid__item--c2:hover,
 .grid__item--c2:focus {
-	color: #ee7074;
+	color: #f89106;
 }
 
 .grid__item--c3,
 .grid__item--c3:hover,
 .grid__item--c3:focus {
-	color: #f7f295;
+	color:#e61f57;
 }
 
 .stack {
