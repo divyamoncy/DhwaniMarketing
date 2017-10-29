@@ -598,8 +598,8 @@ padding-bottom: 40px;
 	
 	padding-top: 100px;
 	padding-bottom: 100px;
-	padding-left: 70px;
-	padding-right: 70px;
+	padding-left: 10vw;
+	padding-right: 10vw;
 	font-family: '33535gillsansmt';
 	font-size: 25px;
 	text-align:justify;
@@ -623,11 +623,7 @@ padding-bottom: 40px;
   -webkit-text-fill-color: transparent;
 }
 .broch p{
-	
-background:-webkit-linear-gradient(#f89106, #e61f57);
-background:-moz-linear-gradient(#f89106, #e61f57);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+	color:black;
 }
 
 .aboutcet{
@@ -636,8 +632,8 @@ background:-moz-linear-gradient(#f89106, #e61f57);
 	
 	padding-top: 100px;
 	padding-bottom: 100px;
-	padding-left: 70px;
-	padding-right: 70px;
+	padding-left: 10vw;
+	padding-right: 10vw;
 	font-family: '33535gillsansmt';
 	font-size: 25px;
 	text-align:justify;
@@ -661,11 +657,7 @@ background:-moz-linear-gradient(#f89106, #e61f57);
   -webkit-text-fill-color: transparent;
 }
 .aboutcet p{
-	
-background:-webkit-linear-gradient(#f89106, #e61f57);
-background:-moz-linear-gradient(#f89106, #e61f57);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+	color:black;
 }
 
 
@@ -677,12 +669,12 @@ background:-moz-linear-gradient(#f89106, #e61f57);
 
 #Menubtn span{
      display: block;
-    width: 33px;
+    width: 25px;
     height: 3px;
     margin-bottom: 5px;
     position: relative;
     background: #ffffff;
-    border-radius: 3px;
+    border-radius: 1px;
     z-index: 1;
     margin: auto;
     margin-bottom: 5px;
