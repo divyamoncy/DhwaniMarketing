@@ -507,7 +507,7 @@ background:-moz-linear-gradient(#f89106, #e61f57); /* Black*/
 
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover, .offcanvas a:focus{
-    color: #e61f57;
+    text-decoration: underline;
 }
 
 /* Position and style the close button (top right corner) */
@@ -930,6 +930,12 @@ padding-bottom: 40px;
   .sidenav{
   	transition: 0.1s;
 
+  }
+
+  #footerlogo{
+  	position: absolute;
+  	opacity: 0.5;
+  	padding-bottom: 50px;
   }
 }
 
