@@ -750,7 +750,7 @@ padding-bottom: 40px;
 
 .card-wrap {
   float:left;
-  width:100%;
+  width:25%;
   padding:5px;
 }
 
@@ -759,7 +759,7 @@ padding-bottom: 40px;
   background: white;
   color:black;
   
-  font-size: 30px;
+  font-size: 25px;
   background-size: cover;
   
    
@@ -796,7 +796,7 @@ padding-bottom: 40px;
 /*media queries*/
 @media (max-width: 1300px) {
 	.card{
-		height:800px;
+		height:700px;
 	}
 	.card-wrap {
     width:25%;
