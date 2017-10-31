@@ -808,13 +808,14 @@ padding-bottom: 40px;
 
 @media (max-width: 1250px){
 	.card{
-		height:900px;
-		font-size:25px;
+		height:570px;
+		font-size:20px;
 	}
 	 
 	.card-wrap {
-    width:50%;
+    width:25%;
   }
+
 
 }
 
@@ -823,7 +824,7 @@ padding-bottom: 40px;
     width:50%;
   }
   .card{
-  	height:800px;
+  	height:600px;
   }
 }
 
@@ -833,10 +834,14 @@ padding-bottom: 40px;
 
 @media (max-width: 480px) {
 	.card-wrap {
-    width:100%;
+    width:50%;
   }
 	.card{
-		height:700px;
+		height:350px;
+		font-size: 11px;
+	}
+	.card h2{
+		font-size: 18px;
 	}
   .SponsHead h1  {
     font-size: 25px;
@@ -865,12 +870,16 @@ padding-bottom: 40px;
   	padding-left: 20px;
   	padding-right: 20px;
   }
+  .broch p{
+  	font-size: 14px;
+  }
   .broch h1{
   	font-size: 30px;
   }
   .aboutcet{
   	padding-left: 20px;
   	padding-right: 20px;
+  	font-size: 14px;
   	
   }
   .aboutcet h1{
