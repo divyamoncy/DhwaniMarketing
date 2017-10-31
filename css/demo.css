@@ -759,7 +759,7 @@ padding-bottom: 40px;
   background: white;
   color:black;
   
-  font-size: 25px;
+  font-size: 22px;
   background-size: cover;
   
    
@@ -780,7 +780,7 @@ padding-bottom: 40px;
 	
 }
 .card h2{
-	font-size: 34px;
+	font-size: 30px;
 	 background:-webkit-linear-gradient(#f89106, #e61f57);
   background:-moz-linear-gradient(#f89106, #e61f57);
   -webkit-background-clip: text;
@@ -809,7 +809,7 @@ padding-bottom: 40px;
 @media (max-width: 1250px){
 	.card{
 		height:900px;
-		font-size:25px;
+		font-size:20px;
 	}
 	 
 	.card-wrap {
