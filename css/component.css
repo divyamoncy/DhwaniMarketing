@@ -193,7 +193,7 @@ background:-moz-linear-gradient(#f89106, #e61f57); /* Black*/
 
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover, .offcanvas a:focus{
-    color: #e61f57;
+    text-decoration: underline;
 }
 
 /* Position and style the close button (top right corner) */
@@ -287,10 +287,59 @@ background:-moz-linear-gradient(#f89106, #e61f57); /* Black*/
 
 }
 
+.compSpons{
+	display: flex;
+}
 
 
+	
 
 
+/*Footer style*/
+#footerLogo{
+  width:100%;
+  height:auto;
+  /*padding-left:140px;*/
+  
+  }
+  
+  .footRow{
+    padding-left:45px;
+    padding-top:20px;
+    color: black;
+  }
+  
+  .footRow h2{
+  	padding-top: 7vh;
+   font-size:27px;
+   line-height:unset;
+   
+  }
+  
+  .footRow h5{
+   font-size:15px;
+   margin-bottom:0px;
+   line-height: unset;
+   
+  }
+  
+  
 
+  
 
+  .footConnect h2{
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  
+  ::-moz-selection {
+       background-color: #f89106;
+       color: #000;
+}
 
+/* Works in Safari */
+::selection {
+       background-color: #f89106;
+       color: #000;
+}
