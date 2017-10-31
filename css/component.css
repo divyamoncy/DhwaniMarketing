@@ -1,6 +1,6 @@
 .cbp-rfgrid {
 	margin: 35px 0 0 0;
-	padding: 0;
+	padding: 5vw;
 	list-style: none;
 	position: relative;
 	width: 100%;
@@ -17,11 +17,17 @@
 	
 
 
-
+/*
 	background:-webkit-linear-gradient(rgba(248, 145, 6,0.5), rgba(230, 31, 87  ,0.5));
   background:-moz-linear-gradient(rgba(248, 145, 6,0.5), rgba(230, 31, 87  ,0.5));
  -webkit-text-fill-color: black;
-box-shadow: 0 3px 28px 0 rgba( 230, 31, 87,0.7), 0 0px 55px 0 rgba(0, 0, 0, 0.21);
+box-shadow: 0 3px 28px 0 rgba( 230, 31, 87,0.7), 0 0px 55px 0 rgba(0, 0, 0, 0.21);*/
+background:-webkit-linear-gradient(rgba(248, 145, 6, 0.91), rgba(230, 31, 87, 0.85));
+    background: -moz-linear-gradient(rgba(248, 145, 6, 0.91), rgba(230, 31, 87, 0.85));
+    -webkit-text-fill-color: #f0f0f0;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.7), 0 0px 20px 0 rgba(0, 0, 0, 0.21);
+
+}
 }
 
 .cbp-rfgrid li a,
