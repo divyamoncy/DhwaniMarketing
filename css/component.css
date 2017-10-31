@@ -244,9 +244,9 @@ background:-moz-linear-gradient(#f89106, #e61f57); /* Black*/
 .sidenav{
 	background: linear-gradient(45deg,#EE7752, #E73C7E, #23A6D5, #65e31b);
     background-size: 800% 200%;
-	-webkit-animation: Gradient 7s ease infinite;
-	-moz-animation: Gradient 7s ease infinite;
-	animation: Gradient 7s ease infinite;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
 
 }
 
