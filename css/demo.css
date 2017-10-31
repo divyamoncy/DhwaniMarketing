@@ -730,17 +730,114 @@ padding-bottom: 40px;
 
 
 
+/*Statistics cards*/
+
+.card-grid {
+  
+  margin-left:20px;
+  margin-right:20px;
+  margin-top:40px;
+}
+.card-grid:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card img {
+  max-width:100%;
+}
+
+.card-wrap {
+  float:left;
+  width:100%;
+  padding:5px;
+}
+
+
+.card {
+  background: white;
+  color:black;
+  
+  font-size: 30px;
+  background-size: cover;
+  
+   
+   padding-bottom:20px;
+   height:700px;
+  margin-bottom: 30px;
+  
+}
+.card strong{
+	 background:-webkit-linear-gradient(#f89106, #e61f57);
+  background:-moz-linear-gradient(#f89106, #e61f57);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.card p{
+	padding-left:20px;
+	padding-right:20px;
+	
+}
+.card h2{
+	font-size: 34px;
+	 background:-webkit-linear-gradient(#f89106, #e61f57);
+  background:-moz-linear-gradient(#f89106, #e61f57);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.card > div {
+  padding:0 1em;
+}
 
 
 
 
+/*media queries*/
+@media (max-width: 1300px) {
+	.card{
+		height:800px;
+	}
+	.card-wrap {
+    width:25%;
+  }
+	 
+	}
 
+
+
+@media (max-width: 1250px){
+	.card{
+		height:900px;
+		font-size:25px;
+	}
+	 
+	.card-wrap {
+    width:50%;
+  }
+
+}
+
+@media (max-width: 772px){
+.card-wrap {
+    width:50%;
+  }
+  .card{
+  	height:800px;
+  }
+}
 
 
 
 
 
 @media (max-width: 480px) {
+	.card-wrap {
+    width:100%;
+  }
+	.card{
+		height:700px;
+	}
   .SponsHead h1  {
     font-size: 25px;
     letter-spacing: 8px;
