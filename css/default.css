@@ -14,6 +14,13 @@
 
 body, html { font-size: 100%; 	padding: 0; margin: 0;}
 
+body{
+	background: url('../img/Background/spbg.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
 /* Reset */
 *,
 *:after,
@@ -35,7 +42,7 @@ body, html { font-size: 100%; 	padding: 0; margin: 0;}
 }
 
 body {
-    font-family: 'Lato', Calibri, Arial, sans-serif;
+    font-family: '33535gillsansmt';
     color: #47a3da;
 
 }
@@ -144,4 +151,13 @@ a:hover {
 .icon-arrow-left:before {
 	content: "\f060";
 }
+.clearfix span,h1{
+	background:-webkit-linear-gradient(#f89106, #e61f57);
+  background:-moz-linear-gradient(#f89106, #e61f57);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 
+}
+.clearfix p{
+	font-size: 1.1em;
+}
