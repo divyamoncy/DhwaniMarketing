@@ -144,6 +144,7 @@ background:-webkit-linear-gradient(rgba(248, 145, 6, 0.91), rgba(230, 31, 87, 0.
 		width: -webkit-calc(100% / 3);
 		width: calc(100% / 3);
 	}
+
 }
 
 @media screen and (max-width: 416px) {
@@ -343,3 +344,12 @@ background:-moz-linear-gradient(#f89106, #e61f57); /* Black*/
        background-color: #f89106;
        color: #000;
 }
+
+
+
+@media (max-width: 480px) {
+#footlogo{
+  	position: absolute;
+  	opacity: 0.5;
+  	padding-bottom: 50px;
+  }
