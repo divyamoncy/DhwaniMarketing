@@ -826,6 +826,26 @@ padding-bottom: 40px;
 }
 
 
+#maincat h2{
+	font-size:30px;
+	background:-webkit-linear-gradient(#f89106, #e61f57);
+  background:-moz-linear-gradient(#f89106, #e61f57);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#maincat{
+	background:url('../img/Background/mainbg.png'); background-position: center;background-size: cover;
+	padding-top: 35%;
+}
+#maincat :hover{
+	 -webkit-text-fill-color: black;
+}
+#maincat a{
+	text-decoration: none;
+}
+
+
+
 
 
 /*media queries*/
@@ -836,6 +856,13 @@ padding-bottom: 40px;
 	.card-wrap {
     width:25%;
   }
+	 #resp{
+  	width:30%;
+  }
+  #maincat{
+  	height:300px;
+	 
+	}
 	 
 	}
 
@@ -851,6 +878,9 @@ padding-bottom: 40px;
 	 
 	.card-wrap {
     width:25%;
+  }
+	 #resp{
+  	width:30%;
   }
 
 
@@ -870,6 +900,20 @@ padding-bottom: 40px;
 
 
 @media (max-width: 480px) {
+	
+	
+	#resp{
+		width:45%;
+
+	}
+	#maincat{
+		height:150px;
+		padding-top: 30%;
+	}
+
+	#maincat h2{
+		font-size: 20px;}
+
 	.card-wrap {
     width:50%;
   }
